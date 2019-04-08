@@ -6,7 +6,7 @@ module.exports = {
 };
 
 // function item(){
-// name, 
+// name: name, 
 // durability: Math.random(0-100) ,
 // enhancement: Math.random(0-20)
 // }
