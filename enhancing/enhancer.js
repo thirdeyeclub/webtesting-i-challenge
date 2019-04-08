@@ -5,11 +5,17 @@ module.exports = {
   get,
 };
 
+// function item(){
+// name, 
+// durability: Math.random(0-100) ,
+// enhancement: Math.random(0-20)
+// }
+
 function succeed(item) {
   return { ...item };
 }
 
-function fail(item) {
+function fail(item) {  
   return { ...item };
 }
 
