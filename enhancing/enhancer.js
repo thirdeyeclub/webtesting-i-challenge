@@ -12,7 +12,17 @@ module.exports = {
 // }
 
 function succeed(item) {
+  if(item.name === undefined){
+    return {message: 'item lacks a name'}
+  }
+  if(item.durability === undefined){
+    return {message: 'item lacks a condition'}
+  }
+  if(item.enhancement === undefined){
+    return {message: 'item lacks an enhancment'}
+  }
   return { ...item };
+
 }
 
 function fail(item) {  

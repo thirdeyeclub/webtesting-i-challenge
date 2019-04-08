@@ -5,6 +5,9 @@
   "repository": "https://github.com/thirdeyeclub/webtesting-i-challenge.git",
   "author": "thirdeyeclub <wwwaaavvveeerrr@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "test": "jest --watch"
+  },
   "devDependencies": {
     "jest": "^24.7.1"
   }
